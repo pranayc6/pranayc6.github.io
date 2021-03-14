@@ -86,6 +86,10 @@ input, select, textarea {
 		background: #fff;
 	}
 
+	.dark-mode {
+		background: #212121;
+	}
+
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -2642,6 +2646,14 @@ input, select, textarea {
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
+
+		#header .icons {
+			margin: 1em 0 1em 0;
+		}
+	
+			#header .icons a {
+				color: rgba(255, 255, 255, 0.75);
+			}
 
 /* Footer */
 
